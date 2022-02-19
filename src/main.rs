@@ -181,8 +181,10 @@ impl Game
                     break;
                 }
             }
+            self.game_over();
         }
-        self.tetro = new_tetro;
+        else
+        { self.tetro = new_tetro; }
         self.last_down = Instant::now();
     }
     fn next(&mut self)
