@@ -1,10 +1,15 @@
 simple terminal based tetris clone written to learn rust
 
 controls:
+
 left/right/down to move
+
 up to rotate clockwise
+
 h to hold
+
 esc to pause
+
 q to quit
 
 Scoring is based on NES tetris, while leveling, lock delay, and the ability to hold pieces are from more modern tetris games. 
